@@ -1,7 +1,7 @@
 import numpy as np
 
-opentxt = open("C:/Users/ValCa/Documents/Courses/AdventOfCode/Day1/input.txt", "r") #opens the file in read mode
-measurement = np.array(opentxt.read().splitlines()) #puts the file into an array
+opentxt = open("C:/Users/ValCa/Documents/Courses/AdventOfCode/Day1/input.txt", "r")
+measurement = np.array(opentxt.read().splitlines())
 measurement = [int(i) for i in measurement]
 
 index1 = 0
